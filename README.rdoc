@@ -3,3 +3,10 @@
 Testinstallation av spree e-commerce i utbildningssyfte.
 
 
+<pre>
+
+git clone <this repo>
+rails g spree:install
+rails g spree_fancy:install
+
+</pre>
