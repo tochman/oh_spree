@@ -61,3 +61,8 @@ gem 'spree_fancy', :github => 'spree/spree_fancy'
 # kräver spree social
 # gem "spree_social", :git => "git://github.com/spree/spree_social.git", :branch => 'master'
 
+#Internationalization
+gem 'spree_i18n', github: 'spree/spree_i18n'
+gem 'globalize3', github: 'svenfuchs/globalize3', branch: 'rails4'
+gem 'paper_trail', github: 'airblade/paper_trail'
+
