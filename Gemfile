@@ -1,7 +1,10 @@
 source 'https://rubygems.org'
 ruby '1.9.3'
 
-gem "railties", "~> 4.0.0"
+# gem "railties", "~> 4.0.0"
+
+# Compass - installed together with spree fancy
+gem "compass-rails", "~> 2.0.alpha.0"
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.0'
@@ -50,3 +53,11 @@ gem 'spree', github: 'spree/spree', branch: 'master'
 gem 'spree_auth_devise', github: 'spree/spree_auth_devise', branch: 'master'
 gem 'ransack', github: 'ernie/ransack', branch: 'master'
 gem 'awesome_nested_set', github: 'collectiveidea/awesome_nested_set', branch: 'master'
+
+
+# Template
+gem 'spree_fancy', :github => 'spree/spree_fancy'
+# gem 'spree_rdr_theme', :git => 'git://github.com/spree/spree_rdr_theme.git'
+# kräver spree social
+# gem "spree_social", :git => "git://github.com/spree/spree_social.git", :branch => 'master'
+
